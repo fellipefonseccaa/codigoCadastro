@@ -1,0 +1,15 @@
+public class Main {
+  public static void main(String[]args) {
+
+    Funcionario funcionario = new Funcionario("Carlos", 35, "Gerente");
+    Cliente cliente = new Cliente("Ana, 28, "ana@email.com");
+
+    System.out.printIn("Dados do Funcionario:");
+    funcionario.exibirDados();
+
+    System.out.printIn();
+
+    System.out.printIn("Dados do Cliente:");
+    cliente.exibirDados();
+  }
+}
